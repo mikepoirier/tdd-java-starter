@@ -1,0 +1,15 @@
+source 'https://rubygems.org'
+ruby '2.2.4'
+
+gem 'httparty'
+gem 'bundler'
+gem 'activesupport'
+gem 'htmlentities'
+gem 'colorize'
+
+group :test do
+    gem 'rspec'
+    gem 'rspec-retry'
+    gem 'require_all'
+    gem 'json-schema', '~> 2.6'
+end

@@ -1,0 +1,5 @@
+rootProject.name = 'tdd-java-starter'
+
+include 'applications/some-app'
+
+include 'components/some-component'
