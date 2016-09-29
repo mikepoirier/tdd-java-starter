@@ -11,7 +11,6 @@ require 'active_support'
 require 'active_support/core_ext'
 
 require_rel 'helpers'
-# require_rel '../../utils'
 
 some_app_spec_helper = SomeAppServer.new('8080')
 
